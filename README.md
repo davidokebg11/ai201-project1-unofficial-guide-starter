@@ -103,6 +103,8 @@ Sources: reddit_underrated_tips.txt, fsu_survival_tips.txt, reddit_biggest_advic
 
 **Out-of-scope query: "What is the best programming language to learn?"**
 Answer: "I don't have enough information on that."
+This question is outside the domain of freshman survival tips so the system 
+correctly refused to answer rather than making something up.
 
 ## Query Interface
 The interface is a Gradio web app running at http://localhost:7860.
